@@ -28,4 +28,5 @@ repeat {
     virtualBankSystem.onboardCustomerAccountOpening()
     let numberPadKey = Int.random(in: 1...3)
     virtualBankSystem.makeAccount(numberPadKey: numberPadKey)
-} while virtualBankSystem.accountType == ""
+} 
+while virtualBankSystem.accountType == ""
