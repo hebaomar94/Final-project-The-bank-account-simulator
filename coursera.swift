@@ -92,6 +92,7 @@ struct BankAccount {
     
 }
 //Create a bank account instance
+
 var bankAccount = BankAccount()
 print(bankAccount.debitBalanceInfo)
 bankAccount.debitDeposit(100)
